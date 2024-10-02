@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Filmes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Galeria de Filmes</h1>
+      <nav>
+        <ul>
+          <li><a href="#" id="popular-btn">Populares</a></li>
+          <li><a href="#" id="novidades-btn">Novidades</a></li>
+          <li><a href="#" id="top-rated-btn">Mais bem avaliados</a></li>
+        </ul>
+      </nav>
+      <input type="text" id="filter-input" placeholder="Filtrar por título...">
+    </div>
+  </header>
+  
+  <main>
+    <section id="movie-list"></section>
+    <div id="loading" class="hidden">Carregando...</div>
+  </main>
+
+  <aside>
+    <h3>Meus Favoritos</h3>
+    <ul id="favorites-list"></ul>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
